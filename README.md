@@ -1,6 +1,4 @@
 # Pure-C-implementation-for-Deep-Learning-models
-<<<<<<< HEAD
-
 This is a pure C implementation for Deep Learning Models including: LeNet5, AlexNet, VGG16, ResNet18 without any external libraries requirements.
 Dataset: MNIST, Cifar10
 '''
@@ -58,5 +56,3 @@ Dataset: MNIST, Cifar10
             │          └─cifar-10-batches-bin
             └─VGG16_single_mnist
         '''
-=======
->>>>>>> 709d9537345dc3c30838466512f9b7d346566578
