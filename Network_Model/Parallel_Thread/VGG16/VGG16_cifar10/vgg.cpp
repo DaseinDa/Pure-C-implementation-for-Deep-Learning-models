@@ -177,8 +177,8 @@ OMP_PARA_INTERNAL																\
 		for (int y = 0; y < GETLENGTH(*weight); ++y)							\
 			wd[x][y] += ((double *)input)[x] * ((double *)outerror)[y];			\
 }
-//((double *)inerror)[x] += ((double *)outerror)[y] * weight[x][y]; 这里是计算input中将要迭代至的上一层的值对Loss的梯度，以便上一层用
-//wd[x][y] += ((double *)input)[x] * ((double *)outerror)[y];	这里是计算当前梯度更新层，要更新的梯度
+//((double *)inerror)[x] += ((double *)outerror)[y] * weight[x][y]; Here is calculating the gradient of Loss for input matrix, for the usage of last layer
+//wd[x][y] += ((double *)input)[x] * ((double *)outerror)[y];	Calculate the update gradient, to update the weight
 double relu(double x)
 {
 	return x*(x > 0);
