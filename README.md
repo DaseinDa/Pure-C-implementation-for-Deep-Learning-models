@@ -1,6 +1,5 @@
 # Pure-C-implementation-for-Deep-Learning-models
 
-
 └─Network_Model
     ├─Parallel_Thread
     │  ├─AlexNet
