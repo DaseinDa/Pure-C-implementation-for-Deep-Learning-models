@@ -9,9 +9,11 @@ Dataset: MNIST, Cifar10
 ```cd Network_Model/Parallel_Thread/VGG16/VGG16_cifar10 ```
 
 2. Run MakeFile
+
 ```make```
 
 3. Run the compiled file main
+
 ```./main```
 
 ```bash
