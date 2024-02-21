@@ -6,7 +6,9 @@ Dataset: MNIST, Cifar10
 The implementation is mainly separated into parallel running and single thread running on CPU.
 
 # Environment
-``` gcc 11   ```
+``` g++ 17
+    openmp
+```
 
 # Run
 ### Enter the source code directory, e.g. Network_Model/Parallel_Thread/VGG16/VGG16_cifar10
