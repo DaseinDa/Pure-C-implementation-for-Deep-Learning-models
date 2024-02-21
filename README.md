@@ -4,15 +4,15 @@ This is a pure C implementation for Deep Learning Models including: LeNet5, Alex
 Dataset: MNIST, Cifar10
 
 # Run
-1. enter the source code directory, e.g. Network_Model/Parallel_Thread/VGG16/VGG16_cifar10
+### enter the source code directory, e.g. Network_Model/Parallel_Thread/VGG16/VGG16_cifar10
 
 ```$ cd Network_Model/Parallel_Thread/VGG16/VGG16_cifar10 ```
 
-2. Run MakeFile
+### Run MakeFile
 
 ```$ make```
 
-3. Run the compiled file main
+### Run the compiled file main
 
 ```$ ./main```
 
