@@ -2,7 +2,7 @@
 This is a pure C implementation for Deep Learning Models including: LeNet5, AlexNet, VGG16, ResNet18 without any external libraries requirements.
 Dataset: MNIST, Cifar10
 
-'''bash
+```bash
 └─Network_Model
     ├─Parallel_Thread
     │  ├─AlexNet
@@ -56,4 +56,4 @@ Dataset: MNIST, Cifar10
             │      └─cifar
             │          └─cifar-10-batches-bin
             └─VGG16_single_mnist
-        '''
+        ```
