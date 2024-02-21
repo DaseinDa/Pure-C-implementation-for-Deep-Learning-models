@@ -478,8 +478,8 @@ static inline void softmax(double input[OUTPUT], double loss[OUTPUT], int label,
 	inner += loss[label];
 	for (int i = 0; i < count; ++i)
 	{
-		loss[i] *= (i == label) - loss[i] - inner;//这是原来的实现，不确定是不是更好，或者现代用的优化函数
-		//loss[i] *= (i == label) - inner;//这是实际数学计算中的实现
+		loss[i] *= (i == label) - loss[i] - inner;//This is the original implementation, not sure if it is the best, you can replace with better optimization function
+		//loss[i] *= (i == label) - inner;//Here is the actual implementation on mathematics
 	}
 }
 
