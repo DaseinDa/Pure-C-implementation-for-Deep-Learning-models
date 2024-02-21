@@ -9,10 +9,10 @@
 #include <cstring>
 #include <cstdio>
 #include "data/cifar/cifar10_reader.hpp"
-#define FILE_TRAIN_IMAGE		"train-images-idx3-ubyte"
-#define FILE_TRAIN_LABEL		"train-labels-idx1-ubyte"
-#define FILE_TEST_IMAGE		"t10k-images-idx3-ubyte"
-#define FILE_TEST_LABEL		"t10k-labels-idx1-ubyte"
+// #define FILE_TRAIN_IMAGE		"train-images-idx3-ubyte"
+// #define FILE_TRAIN_LABEL		"train-labels-idx1-ubyte"
+// #define FILE_TEST_IMAGE		"t10k-images-idx3-ubyte"
+// #define FILE_TEST_LABEL		"t10k-labels-idx1-ubyte"
 #define ALEXNET_FILE 		"model.dat"
 #define COUNT_TRAIN		3000
 #define COUNT_TEST		100
