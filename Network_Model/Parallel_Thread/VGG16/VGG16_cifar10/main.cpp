@@ -155,12 +155,12 @@ int main()
 {
 // #pragma omp parallel num_threads(4)
 //   {
-//     printf("hello world from tid = %d\n", omp_get_thread_num()); // omp_get_thread_num 表示得到线程的线程 id
+//     printf("hello world from tid = %d\n", omp_get_thread_num()); // omp_get_thread_num: get the id of thread
 //   }
 
 
-// omp_set_num_threads(20); //设置线程的个数
-// double start = omp_get_wtime();//获取起始时间  
+// omp_set_num_threads(20); //set the number of threads
+// double start = omp_get_wtime();//obtain the start time
 // #pragma omp parallel for
 // for (int i = 0; i < 50; i++) {
 // 	for (int j = 0; j < 10; j++) {
