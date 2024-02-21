@@ -6,7 +6,8 @@ Dataset: MNIST, Cifar10
 The implementation is mainly separated into parallel running and single thread running on CPU.
 
 # Environment
-``` g++ 17
+```
+    g++ 17
     openmp
 ```
 
