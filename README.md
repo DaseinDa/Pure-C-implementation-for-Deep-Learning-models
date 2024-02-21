@@ -1,20 +1,28 @@
 # Pure-C-implementation-for-Deep-Learning-models
-This is a pure C implementation for Deep Learning Models including: LeNet5, AlexNet, VGG16, ResNet18 without any external libraries requirements.
+This is a pure C implementation for Deep Learning Models including: LeNet5, AlexNet, VGG16, ResNet18, Transformer on CPU without any external libraries requirements.
 
 Dataset: MNIST, Cifar10
 
+The implementation is mainly separated into parallel running and single thread running on CPU.
+
+# Environment
+```
+    g++ 17
+    openmp
+```
+
 # Run
-1. enter the source code directory, e.g. Network_Model/Parallel_Thread/VGG16/VGG16_cifar10
+### Enter the source code directory, e.g. Network_Model/Parallel_Thread/VGG16/VGG16_cifar10
 
-```cd Network_Model/Parallel_Thread/VGG16/VGG16_cifar10 ```
+```$ cd Network_Model/Parallel_Thread/VGG16/VGG16_cifar10 ```
 
-2. Run MakeFile
+### Run MakeFile
 
-```make```
+```$ make```
 
-3. Run the compiled file main
+### Run the compiled file main
 
-```./main```
+```$ ./main```
 
 ```bash
 └─Network_Model
