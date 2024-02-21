@@ -1,0 +1,12 @@
+nohup: ignoring input
+The time of a batch of 1 image trainng of Alexnet single is 423855
+The time of a batch of 1 image trainng of Alexnet single is 432131
+The time of a batch of 1 image trainng of Alexnet single is 446468
+The time of a batch of 1 image trainng of Alexnet single is 377935
+The time of a batch of 1 image trainng of Alexnet single is 284016
+The time of a batch of 1 image trainng of Alexnet single is 279793
+The time of a batch of 1 image trainng of Alexnet single is 276925
+The time of a batch of 1 image trainng of Alexnet single is 277106
+The time of a batch of 1 image trainng of Alexnet single is 278251
+The time of a batch of 1 image trainng of Alexnet single is 279436
+The time of an epoch when batch=300 image trainng of AlexNet cifar single is 3356075
