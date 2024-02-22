@@ -5,6 +5,8 @@ Dataset: MNIST, Cifar10
 
 The implementation is mainly separated into parallel running and single thread running on CPU.
 
+The Mathematical induction and explaination can be found: https://daseinda.github.io/blog/
+
 # Environment
 ```
     g++ 17
